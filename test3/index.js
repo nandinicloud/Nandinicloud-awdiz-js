@@ -82,20 +82,43 @@
 // Output:
 // [1, 2, 3, 4, 5, 6]
 
-const nestedArray = [1, [2, [3, [4, 5]]], 6];
-function flattenArray(arr) {
-    let result = [];
+// const nestedArray = [1, [2, [3, [4, 5]]], 6];
+// function flattenArray(arr) {
+//     let result = [];
 
-    for (let i = 0; i < arr.length; i++) {
-        if (Array.isArray(arr[i])) {
-            result = result.concat(flattenArray(arr[i]));
-        } else {
-            result.push(arr[i]);
-        }
-    }
-    return result;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (Array.isArray(arr[i])) {
+//             result = result.concat(flattenArray(arr[i]));
+//         } else {
+//             result.push(arr[i]);
+//         }
+//     }
+//     return result;
+// }
+// console.log(flattenArray(nestedArray)); 
+
+
+
+// Question 7:
+// Create a JavaScript program that implements a basic binary search algorithm. The function should take a sorted array and a target value, and return the index of the target value or -1 if it's not found.
+// Input:
+// [1, 2, 3, 4, 5, 6]
+// 4
+// Output:
+// 3
+
+var numbers = [1, 2, 3, 4, 5, 6,];
+var target = 4;
+
+function BinarySearch(array, target) {
+  const middleIndex = Math.floor(array.length / 2);
+    console.log(array[middleIndex]);
+  if (target == array[middleIndex]) {
+    console.log(middleIndex);
+  }
 }
-console.log(flattenArray(nestedArray)); 
+
+BinarySearch(numbers, target);
 
 // Question 8:
 // Write a JavaScript function that takes a string as input and returns the first non-repeated character. If all characters are repeated, return null.
@@ -123,3 +146,20 @@ console.log(flattenArray(nestedArray));
 // Move disk 1 from B to A
 // Move disk 2 from B to C
 // Move disk 1 from A to C
+
+
+// const numDisks = 3;
+// const sourceRod = 'A';
+// const destinationRod = 'B';
+// const auxiliaryRod = 'C';
+// function towerOfHanoi(n, sourceRod, destinationRod, auxiliaryRod) {
+//     if (n === 1) {
+//         console.log('Move disk 1 from ${sourceRod} to ${destinationRod}');
+//         return;
+//     }
+//     towerOfHanoi(n - 1, sourceRod, auxiliaryRod, destinationRod);
+//     console.log('Move disk ${n} from ${sourceRod} to ${destinationRod}');
+//     towerOfHanoi(n - 1, auxiliaryRod, destinationRod, sourceRod);
+// }
+// console.log('Steps to solve Tower of Hanoi with ${numDisks} disks:');
+// towerOfHanoi(numDisks, sourceRod, destinationRod, auxiliaryRod);
