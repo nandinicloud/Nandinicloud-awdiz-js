@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airbnb Reservation Page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        background-color: #4834d4;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .main-image {
+        width: 100%;
+        height: auto;
+      }
+
+      .details {
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .details h2 {
+        margin-top: 0;
+      }
+
+      .price {
+        background-color: #4834d4;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+
+        .main-image {
+          flex: 3;
+        }
+
+        .details {
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Cozy Cabin in the Woods</h1>
+        <p>$150/night</p>
+      </div>
+      <div class="main-image">
+        <img
+          src="https://images.unsplash.com/photo-1515378868134-52527885640e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="Cozy Cabin in the Woods"
+        />
+      </div>
+      <div class="details">
+        <h2>Description</h2>
+        <p>
+          This cozy cabin in the woods is the perfect place to get away from it
+          all. With a fully equipped kitchen, comfortable living room, and
+          spacious bedroom, you'll have everything you need to relax and
+          unwind.
+        </p>
+        <h2>Amenities</h2>
+        <ul>
+          <li>Kitchen</li>
+          <li>Living Room</li>
+          <li>Bedroom</li>
+          <li>Bathroom</li>
+          <li>Heating</li>
+          <li>Wifi</li>
+        </ul>
+        <h2>Location</h2>
+        <p>
+          Located in the heart of the woods, this cabin is just a short drive
+          from downtown and all the best restaurants and attractions.
+        </p>
+      </div>
+      <div class="price">
+        <p>$150/night</p>
+        <button>Reserve Now</button>
+      </div>
+    </div>
+  </body>
+</html>

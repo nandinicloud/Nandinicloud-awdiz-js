@@ -12,7 +12,6 @@
 // Create a JavaScript function that checks if a given string is a palindrome (reads the same forwards and backwards)
 // Input: "madam"
 var inputArray = ["madam"]
-function
  
 
 // Question 3:
