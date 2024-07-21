@@ -1,26 +1,26 @@
 // scope
 
-function Greeting() {
-    console.log("Welcome");
-  }
-  console.log(Greeting());
+// function Greeting() {
+//     console.log("Welcome");
+//   }
+//   console.log(Greeting());
   
-  {
-    var number = 0.2584;
-  }
-  console.log(number);
+//   {
+//     var number = 0.2584;
+//   }
+//   console.log(number);
   
-  {
-    let number = 40;
-  }
-  console.log(number);
+//   {
+//     let number = 40;
+//   }
+//   console.log(number);
   
-  {
-    let number = 50;
-    {
-      console.log(number);
-    }
-  }
+//   {
+//     let number = 50;
+//     {
+//       console.log(number);
+//     }
+//   }
  
 
 
