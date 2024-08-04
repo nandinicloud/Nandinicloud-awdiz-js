@@ -18,27 +18,27 @@
 // }
 
 
-var fruit = "kuchbhi"
-switch (fruit) {
-    case "apple":
-    console.log("the fruit is apple.");
-    break;
-    case "watermelon":
-    console.log("the fruit is watermelon");
-    break;
-    case "mango":
-    console.log("the fruit is mango");
-    break;
-    case "cake"  :
-    console.log("this is not fruit");
-    break;
-    default :
-    console.log  ("fruit does exist") ;  
+// var fruit = "kuchbhi"
+// switch (fruit) {
+//     case "apple":
+//     console.log("the fruit is apple.");
+//     break;
+//     case "watermelon":
+//     console.log("the fruit is watermelon");
+//     break;
+//     case "mango":
+//     console.log("the fruit is mango");
+//     break;
+//     case "cake"  :
+//     console.log("this is not fruit");
+//     break;
+//     default :
+//     console.log  ("fruit does exist") ;  
 
-}
+// }
 
 
-// && || Operators
+// // && || Operators
 const a = 3;
 const b = 4;
 const c = 5;
@@ -52,19 +52,19 @@ console.log(3 > 4 && 4 > 5 && 3 > 5 && 5 < 3);
 
 
 
-// Form -> number even or odd 
+// // Form -> number even or odd 
 
-// number -> required 
-// name 
-// email 
-// password 
-// confrimPassword
+// // number -> required 
+// // name 
+// // email 
+// // password 
+// // confrimPassword
 
 
-if(number && name && email ){
-    "All vvalues are exist"
-  }
+// if(number && name && email ){
+//     "All vvalues are exist"
+//   }
   
-  if(!number || !name || !email ){
-    "All vvalues are required."
-  }
+//   if(!number || !name || !email ){
+//     "All vvalues are required."
+//   }

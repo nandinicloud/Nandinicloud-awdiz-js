@@ -1,5 +1,5 @@
 var array = [1, 2, 3, 4, 5];
-var target = 6;
+var target = 7;
 // 1 + 4 =  5
 // 2 +3  = 5
 // 1 4
@@ -27,6 +27,6 @@ FindTarget(array, target);
 
 // 4 +5  = 9
 
-var array = [5, 6, 7, 8, 9, 4, 5, 7, 6, 3, 8, 2, 4, 5, 9];
+// var array = [5, 6, 7, 8, 9, 4, 5, 7, 6, 3, 8, 2, 4, 5, 9];
 
-var target = 10;
+// var target = 10;

@@ -187,37 +187,49 @@
   
   
   
-//   // Q Given an string find out numbers of repetation for single letter and return a letter which having most of reperation .
+// //   // Q Given an string find out numbers of repetation for single letter and return a letter which having most of reperation .
   
   
-//   var string = "nayan"
+// //   var string = "nayan"
 
     
-var string = "nandini";
+// var string = "nandini";
 
-function repetedletter(str) {
-    var frequency = {};
-    var maxCount = 0;
-    var mostFrequentLetter = '';
+// function repetedletter(str) {
+//     var frequency = {};
+//     var maxCount = 0;
+//     var mostFrequentLetter = '';
 
-    for (var i = 0; i < str.length; i++) {
-        var char = str[i];
-                if (frequency[char] === undefined) {
-            frequency[char] = 1;
-        } else {
-            frequency[char]++;
-        }
-    }
-    console.log("lettercounts:", frequency);
+//     for (var i = 0; i < str.length; i++) {
+//         var char = str[i];
+//                 if (frequency[char] === undefined) {
+//             frequency[char] = 1;
+//         } else {
+//             frequency[char]++;
+//         }
+//     }
+//     console.log("lettercounts:", frequency);
 
-    for (var char in frequency) {
-        if (frequency[char] > maxCount) {
-            maxCount = frequency[char];
-            mostFrequentLetter = char;
-        }
-    }
+//     for (var char in frequency) {
+//         if (frequency[char] > maxCount) {
+//             maxCount = frequency[char];
+//             mostFrequentLetter = char;
+//         }
+//     }
 
-    return mostFrequentLetter;
+//     return mostFrequentLetter;
+// }
+
+// console.log("Letter with most repetitions is :", repetedletter(string));
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var target = 8;
+
+function BinarySearch(array, target) {
+  const middleIndex = Math.floor(array.length / 2);
+  //   console.log(array[middleIndex]);
+  if (target == array[middleIndex]) {
+    console.log(middleIndex);
+  }
 }
 
-console.log("Letter with most repetitions is :", repetedletter(string));
+BinarySearch(numbers, target);
