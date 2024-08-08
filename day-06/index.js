@@ -84,4 +84,9 @@ function questionOne(starting, ending) {
     console.log(`Odd count :  ${oddCount}`);
   }
   
-  countOddEven(60, 20);
+  countOddEven(60, 2)
+  function aa h(
+
+  )
+
+  
