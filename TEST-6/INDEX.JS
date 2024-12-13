@@ -28,15 +28,15 @@
 // ○ Input: nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 // Output: 5, nums = [0, 1, 2, 3, 4]
 
-// let nums1 = [1, 1, 2];
-// let length1 = removeDuplicates(nums1);
-// console.log(length1); // Output: 2
-// console.log(nums1.slice(0, length1)); // Output: [1, 2]
+let nums1 = [1, 1, 2];
+let length1 = removeDuplicates(nums1);
+console.log(length1); // Output: 2
+console.log(nums1.slice(0, length1)); // Output: [1, 2]
 
-// let nums2 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-// let length2 = removeDuplicates(nums2);
-// console.log(length2); // Output: 5
-// console.log(nums2.slice(0, length2)); // Output: [0, 1, 2, 3, 4]
+let nums2 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+let length2 = removeDuplicates(nums2);
+console.log(length2); // Output: 5
+console.log(nums2.slice(0, length2)); // Output: [0, 1, 2, 3, 4]
 
 // function findDuplicates(string) {
 //   var output = {};

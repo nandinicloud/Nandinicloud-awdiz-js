@@ -29,7 +29,7 @@
 
 function isPalindrome(string) {
     if(string.length === 1 ){
-        return "Not a palindrome."
+        // return "Not a palindrome."
     }
     for (var i = 0; i <= Math.floor((string.length - 1) / 2); i++) {
     //   console.log(string[i] , i, string[string.length - 1 - i], string.length -1 - i);
@@ -58,10 +58,10 @@ console.log(output,"output");
 // right side decrementing
 
 
-  console.log( 2 == 2)
-  console.log( 2 != 2)
-  console.log( 2 === 2) // check data and datatype
-  console.log( 2 !== 2) // data and datatype must different 
+//   console.log( 2 == 2)
+//   console.log( 2 != 2)
+//   console.log( 2 === 2) // check data and datatype
+//   console.log( 2 !== 2) // data and datatype must different 
 
 
 // Array 
@@ -72,19 +72,19 @@ console.log(output,"output");
 // var name = "Awdiz" "institute/"
 
 
-var numbers = [10, "Hello", 30, 40, 50, 60, 70, 80, "Hi"];
-console.log(number)
-console.log(number.length) // its calculates from 1..
-console.log(number[0])
-console.log(number[4])
-console.log(number[number.length - 1])
-function printArrayNumbers(numbers){
-    for(var i = 0 ; i <= numbers.length - 1  ; i++){
-        console.log(i, numbers[i] )
-    }
+// var numbers = [10, "Hello", 30, 40, 50, 60, 70, 80, "Hi"];
+// console.log(number)
+// console.log(number.length) // its calculates from 1..
+// console.log(number[0])
+// console.log(number[4])
+// console.log(number[number.length - 1])
+// function printArrayNumbers(numbers){
+//     for(var i = 0 ; i <= numbers.length - 1  ; i++){
+//         console.log(i, numbers[i] )
+//     }
 
-}
-printArrayNumbers(numbers)
+// }
+// printArrayNumbers(numbers)
 
 
 
